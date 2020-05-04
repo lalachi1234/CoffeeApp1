@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayOrderDetails"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Order Details"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/displayText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Order Details"
+        android:layout_marginTop="16dp"
+        android:layout_margin="16dp"
+        android:textSize="25dp"
+/>
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAVE DATA"
+        android:layout_gravity="center"
+        android:onClick="addButtonClicked"
+        />
+
+
+
+    <Button
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EMAIL ORDER"
+        android:layout_gravity="center"
+        android:onClick="openEmail"
+        />
+
+    <Button
+        android:id="@+id/salesTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SALES REPORT"
+        android:layout_gravity="center"
+        android:onClick="salesReport"
+        />
+
+
+
+
+</LinearLayout>
